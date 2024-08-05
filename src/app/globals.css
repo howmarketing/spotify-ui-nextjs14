@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  border: none;
+  background: rgba(79, 79, 79, 0.2);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  transition: all 0.2s linear;
+  background: #FFFFFF15;
+
+
+  border-radius: 40px
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  transition: all 0.2s linear;
+  background: #FFFFFF30;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
