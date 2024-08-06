@@ -1,3 +1,21 @@
+# Spotify SAMPLE UI
+
+[Access the sample deploy here](https://spotify-ui-nextjs14.vercel.app/)
+
+<p align="center">
+  <img style="border-radius: 8px;" src="./public/demo-view.png" width="98%" alt="Demo View" />
+</p>
+
+<h1 align="center">Spotify SAMPLE UI</h1>
+<p align="center">
+    <strong>Tailwind CSS</strong>, Next.js 14, TypeScript, React.
+</p>
+<p align="center">
+  <a href="https://github.com/howmarketing/spotify-ui-nextjs14/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
+  </a>
+</p>
+  
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
